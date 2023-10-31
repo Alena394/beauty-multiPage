@@ -1,6 +1,4 @@
-import React, {useState} from 'react';
 import styled from "styled-components";
-import {FlexWrapper} from "../FlexWrapper";
 import {Icon} from "../icons/Icon";
 import {Theme} from "../../styles/Theme";
 import {Link} from "react-scroll";

@@ -1,5 +1,4 @@
 import './App.css';
-import styled from 'styled-components';
 import {Header} from "./layout/header/Header";
 import {Main} from "./layout/main/Main";
 import {RightMenu} from "./layout/rightMenu/RightMenu";
@@ -14,7 +13,6 @@ import {Footer} from "./layout/footer/Footer";
 import {Copyright} from "./layout/copyright/Copyright";
 import {useState} from "react";
 import {GoTop} from "./components/goTop/GoTop";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {ServicesMobile} from "./layout/services/servicesMobile/ServicesMobile";
 import {MastersMobile} from "./layout/masters/mastersMobile/MastersMobile";
 

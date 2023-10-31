@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
-
 import {ImgWrapperPseudo} from "../../components/ImgWrapperPseudo";
-import {Theme} from "../../styles/Theme";
-import {FlexWrapper} from "../../components/FlexWrapper";
+
 
 type ServicePropsType = {
     serviceImage: string

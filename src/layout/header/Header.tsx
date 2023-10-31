@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import styled, {css} from "styled-components";
+import styled from "styled-components";
 import {Menu} from "../../components/menu/Menu";
 import {Container} from "../../components/Container";
 import {Theme} from "../../styles/Theme";

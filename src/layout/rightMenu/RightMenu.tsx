@@ -1,4 +1,3 @@
-import React, {useState} from 'react';
 import styled, {css} from "styled-components";
 import {Theme} from "../../styles/Theme";
 import {Icon} from "../../components/icons/Icon";
