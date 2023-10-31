@@ -44,8 +44,6 @@ const StyledHeader = styled.header<{ showFillHeader: boolean }>`
   width: 100%;
   z-index: 1;
   background-color: ${(props) => props.showFillHeader && `${Theme.colors.bgc}`}
-}
-
 `
 
 

@@ -10,9 +10,9 @@ export const Price = () => {
         <StyledPrice>
             <Container>
                 <StyledSectionTitle>Цены на услуги</StyledSectionTitle>
-               <PriceBlock img={Image} alt={"PriceImage"}/>
-               <PriceBlock img={Image} alt={"PriceImage"}/>
-               <PriceBlock img={Image} alt={"PriceImage"}/>
+                <PriceBlock img={Image} alt={"PriceImage"}/>
+                <PriceBlock img={Image} alt={"PriceImage"}/>
+                <PriceBlock img={Image} alt={"PriceImage"}/>
             </Container>
         </StyledPrice>
     );
@@ -20,7 +20,7 @@ export const Price = () => {
 
 
 const StyledPrice = styled.section`
-    margin-bottom: 120px;
+  margin-bottom: 120px;
 `
 const StyledSectionTitle = styled.h2`
   font-family: Garamond sans-serif;

@@ -16,18 +16,17 @@ import {Theme} from "../../../styles/Theme";
 type SlidePropsType = {
     img: string
     alt: string
-    name:string
-    post:string
+    name: string
+    post: string
 }
-const Slide = (props:SlidePropsType) => {
+const Slide = (props: SlidePropsType) => {
     return (
-        <StyledSlide>
-            <SectionTitle>Наши мастера</SectionTitle>
-            <StyledImg src={props.img} alt={props.alt}/>
-            <MasterName>{props.name}</MasterName>
-            <MasterPost>{props.post}</MasterPost>
-        </StyledSlide>
-)
+            <StyledSlide>
+                <StyledImg src={props.img} alt={props.alt}/>
+                <MasterName>{props.name}</MasterName>
+                <MasterPost>{props.post}</MasterPost>
+            </StyledSlide>
+    )
 }
 
 const items = [
@@ -42,6 +41,7 @@ const items = [
 export const MastersMobile = () => {
     return (
         <Container>
+            <SectionTitle>Наши мастера</SectionTitle>
             <StyledSlider>
                 <AliceCarousel
                     mouseTracking
@@ -54,9 +54,9 @@ export const MastersMobile = () => {
 
 
 const StyledSlider = styled.div`
-    display: none;
-  
-  @media ${Theme.media.tablet}{
+  display: none;
+
+  @media ${Theme.media.tablet} {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@ const StyledSlide = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-    
+
 `
 
 const StyledImg = styled.img`

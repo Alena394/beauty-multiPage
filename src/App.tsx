@@ -20,12 +20,14 @@ import {MastersMobile} from "./layout/masters/mastersMobile/MastersMobile";
 function App() {
 
     const [openRightMenu, setOpenRightMenu] = useState(false);
-    const onBurgerBtnClick = ()=>{setOpenRightMenu(!openRightMenu)}
+    const onBurgerBtnClick = () => {
+        setOpenRightMenu(!openRightMenu)
+    }
 
     return (
 
         <div>
-            <Header openRightMenu={openRightMenu} onBurgerBtnClick={onBurgerBtnClick} />
+            <Header openRightMenu={openRightMenu} onBurgerBtnClick={onBurgerBtnClick}/>
             <Main/>
             <RightMenu menuIsOpen={openRightMenu} onBurgerBtnClick={onBurgerBtnClick}/>
             <About/>
@@ -33,7 +35,7 @@ function App() {
             <ServicesMobile/>
             <Cosmetics/>
             <OurWorks/>
-           <Masters/>
+            <Masters/>
             <MastersMobile/>
             <Price/>
             <Contacts/>

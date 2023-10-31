@@ -44,6 +44,10 @@ const ServiceName = styled.p`
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
+  
+  @media ${Theme.media.mobile}{
+    font-size: 20px;
+  }
 `
 
 const Addition = styled.p`
@@ -52,6 +56,10 @@ const Addition = styled.p`
   font-weight: 400;
   line-height: 130%;
   margin-bottom: 60px;
+
+  @media ${Theme.media.mobile}{
+    font-size: 15px;
+  }
 `
 
 const PriceValue = styled.span`
@@ -59,5 +67,9 @@ const PriceValue = styled.span`
   font-style: normal;
   font-weight: 700;
   line-height: 130%;
+
+  @media ${Theme.media.mobile}{
+    font-size:20px;
+  }
     
 `
