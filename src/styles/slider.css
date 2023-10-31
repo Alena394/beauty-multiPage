@@ -1,0 +1,19 @@
+.alice-carousel__dots-item:not(.__custom) {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(205, 170, 125, 0.33);
+}
+
+
+.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active{
+    background-color: rgb(205, 170, 125);
+}
+
+.alice-carousel__next-btn-item{
+    display: none;
+}
+
+.alice-carousel__prev-btn{
+    display: none;
+}
